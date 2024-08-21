@@ -80,7 +80,6 @@ button:active {
 .card__img {
   height: 200px;
   width: 100%;
-  /* background-image: url("../images/img3.avif"); */
   border-radius: 20px;
 }
 
@@ -142,13 +141,4 @@ button:active {
 .card__btn-solid:hover {
   background: var(--bg-color);
   color: var(--main-color);
-}
-#id1 {
-  background-image: url("../images/img4.jpeg");
-}
-#id2 {
-  background-image: url("../images/OIP (1).jpeg");
-}
-#id3 {
-  background-image: url("../images/OIP.jpeg");
 }

@@ -8,6 +8,7 @@ include "../config/config.php";
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PlayVerse-Register</title>
+  <link rel="icon" href="../images/logo.jpg">
   <link rel="stylesheet" href="../public/register.css" />
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
