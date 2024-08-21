@@ -18,4 +18,3 @@ if(empty($email)||empty($password)) {
                     header("location:".$siteurl."/components/login.php");
           }
 }
-?>

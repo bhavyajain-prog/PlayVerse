@@ -28,7 +28,6 @@ if(empty($fname)||empty($lname)||empty($email)||empty($password)||empty($cpasswo
                      header("location:".$siteurl."/components/index.php");
                    }
                     else{
-          echo "error".mysqli_error($sql);
+          echo "error".mysqli_error($conn);
          }}
-?>
  
