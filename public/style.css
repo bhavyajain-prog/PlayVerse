@@ -80,7 +80,7 @@ button:active {
 .card__img {
   height: 200px;
   width: 100%;
-  background-image: url("../images/img3.avif");
+  /* background-image: url("../images/img3.avif"); */
   border-radius: 20px;
 }
 
