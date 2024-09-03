@@ -4,14 +4,14 @@ login.addEventListener("click", () => {
 });
 
 let createRoom = document.querySelectorAll("#create");
-createRoom.forEach((btn)=>{
-  btn.addEventListener('click',()=>{
+createRoom.forEach((btn) => {
+  btn.addEventListener("click", () => {
     window.location.href = "createroom.php";
-  })
+  });
 });
 let joinRoom = document.querySelectorAll("#join");
-joinRoom.forEach((btn)=>{
-  btn.addEventListener('click',()=>{
+joinRoom.forEach((btn) => {
+  btn.addEventListener("click", () => {
     window.location.href = "joinroom.php";
-  })
-})
+  });
+});

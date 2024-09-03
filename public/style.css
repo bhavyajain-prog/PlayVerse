@@ -3,7 +3,7 @@
   padding: 0;
   outline: none;
   border: none;
-  color:white;
+  color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-decoration: none;
@@ -24,9 +24,9 @@ header {
   animation-timeline: scroll();
 }
 @keyframes fade {
-  100%{
+  100% {
     background: transparent;
-    background-color:grey;
+    background-color: grey;
   }
 }
 .logo > h2 {
@@ -39,7 +39,7 @@ header {
   animation-timeline: scroll();
 }
 @keyframes change {
-  100%{
+  100% {
     background: solid;
     color: black;
   }
@@ -61,7 +61,8 @@ header {
 .login {
   border-radius: 5px;
 }
-.login:hover ,.room:hover {
+.login:hover,
+.room:hover {
   box-shadow: 2px 2px 5px #57737a;
 }
 .room {
@@ -125,7 +126,7 @@ footer {
   height: max-content;
   padding: 1rem;
 }
-.frow{
+.frow {
   position: relative;
   width: 100%;
   display: flex;
@@ -142,11 +143,11 @@ footer {
   height: 600px;
   width: 1480px;
 }
-.col>ul>li{
+.col > ul > li {
   width: 100%;
   text-align: left;
 }
-.col>ul{
+.col > ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -161,11 +162,12 @@ footer {
 #id3 {
   background-image: url("./images/OIP.jpeg");
 }
-.carousel-item>img{
+.carousel-item > img {
   border-radius: 10px;
 }
-@media (max-width:700px) {
-  .room ,.login {
+@media (max-width: 700px) {
+  .room,
+  .login {
     height: 2rem;
     font-size: 13px;
     padding: 4px;
