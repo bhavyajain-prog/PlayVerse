@@ -36,13 +36,13 @@ include "../config/config.php";
       }
       $_SESSION['error'] = ""; ?>
       <?php
-      if ($_SESSION['repeat'] !== '') {  ?>
+      if ($_SESSION['error'] !== '') {  ?>
         <p style="color:orange;" class="message text-center">
-          <?php echo $_SESSION['repeat']; ?>
+          <?php echo $_SESSION['error']; ?>
         </p>
       <?php
       }
-      $_SESSION['repeat'] = ""; ?>
+      $_SESSION['error'] = ""; ?>
       <div class="flex">
         <label>
           <input class="input" type="text" name="fname" />

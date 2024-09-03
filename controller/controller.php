@@ -17,7 +17,7 @@ if (empty($fname) || empty($lname) || empty($email) || empty($password) || empty
   }
   while ($data = mysqli_fetch_array($sql)) {
     if ($data['email'] === $email) {
-      $_SESSION['repeat'] = "User already exixt!";
+      $_SESSION['error'] = "User Already Exist!";
       header("location:" . $siteurl . "/components/register.php");
       return false;
     }
